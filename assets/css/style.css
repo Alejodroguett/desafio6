@@ -1,0 +1,55 @@
+body{ 
+  margin:0;
+  background-color: #3E94D1;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+.navMenu{
+width:100%;
+height:140px;
+background:#0A64A4;
+}
+.navMenu ul{
+padding:5px 0px;
+margin:0;
+list-style:none;
+text-align:center;
+}
+.navMenu ul li {
+display:inline-block;
+padding:5px 10px;
+height:30px;
+background-color: #24577B;
+background-size : 100% 100%;
+background-position : 0px 0px;
+-webkit-transition : all 0.3s;
+-moz-transition : all 0.3s;
+transition: all .3s;
+}
+.navMenu ul li a{
+text-decoration:none;
+color:white;
+}
+li:nth-child(odd) {
+background-image : -webkit-linear-gradient(top, #3E94D1 0%, #3E94D1 20%, #24577B 0%);
+background-image : -moz-linear-gradient(top, #3E94D1 0%, #3E94D1 20%, #24577B 0%);
+}
+li:nth-child(even) {
+background-image : -webkit-linear-gradient(top, #65A5D1 0%, #65A5D1 20%, #24577B 0%);
+background-image : -moz-linear-gradient(top, #65A5D1 0%, #65A5D1 20%, #24577B 0%);
+}
+.navMenu ul li:hover {
+background-size : 100% 600%;
+}
+.imgprofile{
+  width: 160px;
+  height: 160px;
+  clip-path: circle(50% at 50% 50%);
+}
+.aboutme{
+  
+}
+.card-bg{
+  background-color: #0A64A4;
+  color: white;
+}
