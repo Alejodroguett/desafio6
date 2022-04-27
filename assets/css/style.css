@@ -1,5 +1,4 @@
-body{ 
-  margin:0;
+body{
   background-color: #3E94D1;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -53,3 +52,14 @@ background-size : 100% 600%;
   background-color: #0A64A4;
   color: white;
 }
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: aqua;
+}
+.card-text1{
+margin-bottom: 1em;
+}
+
